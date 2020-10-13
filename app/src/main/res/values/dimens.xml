@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="padding_medium">16dp</dimen>
+    <dimen name="font_size_headline">32sp</dimen>
+    <dimen name="font_size_tagline">24sp</dimen>
+    <dimen name="font_size_button">16sp</dimen>
+    <dimen name="margin_wide">32dp</dimen>
+    <dimen name="margin_normal">16dp</dimen>
+    <dimen name="margin_extra_wide">64dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_extra_small">4dp</dimen>
+</resources>

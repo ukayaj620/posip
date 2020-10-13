@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">Posip</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_msg1">Getting near to</string>
+    <string name="stupid_tagline">World in your grasp</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="enter">Enter</string>
+    <string name="sign_in_msg">Please enter your credentials</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signup_msg">Please enter your personal information</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="type">Who are you?</string>
+    <string name="role_msg">Hey There! Are you a Student or a Teacher?</string>
+    <string name="student">I\'m a student</string>
+    <string name="tutor">I\'m a tutor</string>
+    <string name="role_desc">Role</string>
+    <string name="success_desc">Success</string>
+    <string name="success_msg">Yay! You are now registered!</string>
+    <string name="sign_in_now">Sign in now</string>
+    <string name="learn">Learn</string>
+    <string name="no_tutor_msg">You have no active tutor. Start learning now.</string>
+    <string name="no_student_msg">You currently have no active student</string>
+    <string name="search_label">Search for Teacher</string>
+    <string name="search">Search</string>
+    <string name="search_msg">Type in what you want to learn and we\'ll search for you</string>
+    <string name="search_input_msg">What do you want to learn?</string>
+    <string name="sample_name">Mr. Omnipotent</string>
+    <string name="sample_status">Hi There!</string>
+    <string name="sample_field">Chemistry &amp; Maths</string>
+    <string name="star">Star</string>
+    <string name="sample_email">maneng@gmail.com</string>
+    <string name="about_label">About</string>
+    <string name="sample_about">An extraordinary and genius person. Absolutely good at almost everything, especially Chemistry and Maths. A Professional World-Certified Tutor since 2008</string>
+    <string name="experience_skill_label"><![CDATA[Experience & Skill]]></string>
+    <string name="sample_exp_skill">1. Great interpersonal and intrapersonal skills\n2. Fantastic at Chemistry and Maths\n3. 20+ years of tutoring experience</string>
+    <string name="education_label">Education</string>
+    <string name="sample_education">1. SMA Swasta Pengabdi Kimia Raya, 1990 – 1993 (Best Student 1990–1993)\n2. National University of Singapore (1993–1996) on Chemical Engineering (GPA: 4.00)\n3. Monster University (1996–2000) on Double Degree Master of Chemical Science and Doctor in Philosophy of Chemistry (GPA: 4.00)</string>
+    <string name="courses_label">Courses</string>
+    <string name="sample_courses">1. Chemistry\n2. Maths</string>
+    <string name="enroll_on_chemistry">Enroll on Chemistry</string>
+    <string name="enroll_on_maths">Enroll on Maths</string>
+    <string name="sample_tel">081277341188</string>
+    <string name="sing_out_label">Sign Out</string>
+    <string name="sample_student_home_field">Yout Maths Tutor</string>
+    <string name="sample_time">Fri, 2.30pm - 5.00pm</string>
+    <string name="sample_call">Call Maniani Pigcatcher</string>
+    <string-array name="type_array">
+        <item>A Student</item>
+        <item>A Teacher</item>
+    </string-array>
+</resources>

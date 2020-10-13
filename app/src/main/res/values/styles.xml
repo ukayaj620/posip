@@ -1,0 +1,63 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.Posip" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+    <style name="Theme.Posip.SplashScreen" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_screen</item>
+    </style>
+
+    <style name="Widget.Posip.Button.Filled" parent="Widget.MaterialComponents.Button">
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/font_size_button</item>
+    </style>
+
+    <style name="Widget.Posip.Button.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/font_size_button</item>
+    </style>
+
+    <style name="Widget.Posip.Line" parent="Theme.Posip">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@android:color/black</item>
+        <item name="android:layout_marginTop">@dimen/margin_normal</item>
+        <item name="android:layout_marginBottom">@dimen/margin_normal</item>
+    </style>
+
+    <style name="TextAppearance.Posip.Tagline" parent="Theme.Posip">
+        <item name="android:textSize">@dimen/font_size_tagline</item>
+        <item name="android:fontFamily">@font/regular</item>
+    </style>
+
+    <style name="TextAppearance.Posip.Tagline.Bold" parent="Theme.Posip">
+        <item name="android:textSize">@dimen/font_size_tagline</item>
+        <item name="android:fontFamily">@font/bold</item>
+    </style>
+
+    <style name="TextAppearance.Posip.Headline" parent="Theme.Posip">
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textSize">@dimen/font_size_headline</item>
+    </style>
+
+    <style name="TextAppearance.Posip.Headline.Bold" parent="Theme.Posip">
+        <item name="android:fontFamily">@font/bold</item>
+        <item name="android:textSize">@dimen/font_size_headline</item>
+    </style>
+
+    <style name="TextAppearance.Posip.Toolbar" parent="Theme.Posip">
+        <item name="android:fontFamily">@font/logo</item>
+        <item name="android:textSize">@dimen/font_size_headline</item>
+    </style>
+
+    <style name="TextAppearance.Posip.Content" parent="Theme.Posip">
+        <item name="android:fontFamily">@font/regular</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+</resources>

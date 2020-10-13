@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/welcomeFragment">
+
+    <fragment
+        android:id="@+id/welcomeFragment"
+        android:name="android.team.clandestine.posip.fragment.WelcomeFragment"
+        android:label="WelcomeFragment">
+        <action
+            android:id="@+id/action_welcomeFragment_to_signInFragment"
+            app:destination="@id/signInFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popEnterAnim="@anim/slide_in_left" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_roleFragment2"
+            app:destination="@id/roleFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popEnterAnim="@anim/slide_in_left" />
+        <action
+            android:id="@+id/action_welcomeFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@+id/welcomeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/signInFragment"
+        android:name="android.team.clandestine.posip.fragment.SignInFragment"
+        android:label="SignInFragment">
+        <action
+            android:id="@+id/action_signInFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popUpTo="@+id/welcomeFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/signUpFragment"
+        android:name="android.team.clandestine.posip.fragment.SignUpFragment"
+        android:label="SignUpFragment">
+        <action
+            android:id="@+id/action_signUpFragment_to_registerSuccessfulFragment"
+            app:destination="@id/registerSuccessfulFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popUpTo="@+id/welcomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/roleFragment"
+        android:name="android.team.clandestine.posip.fragment.RoleFragment"
+        android:label="RoleFragment" >
+        <action
+            android:id="@+id/action_roleFragment_to_signUpFragment"
+            app:destination="@id/signUpFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popUpTo="@+id/welcomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/registerSuccessfulFragment"
+        android:name="android.team.clandestine.posip.fragment.RegisterSuccessfulFragment"
+        android:label="RegisterSuccessfulFragment" >
+        <action
+            android:id="@+id/action_registerSuccessfulFragment_to_signInFragment"
+            app:destination="@id/signInFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popUpTo="@+id/welcomeFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="android.team.clandestine.posip.fragment.HomeFragment"
+        android:label="HomeFragment" >
+        <action
+            android:id="@+id/action_homeFragment_to_searchFragment"
+            app:destination="@id/searchFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popEnterAnim="@anim/slide_in_left" />
+        <action
+            android:id="@+id/action_homeFragment_to_welcomeFragment"
+            app:destination="@id/welcomeFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popUpTo="@+id/homeFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_homeFragment_to_activeTutorDetailsFragment"
+            app:destination="@id/activeTutorDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="android.team.clandestine.posip.fragment.SearchFragment"
+        android:label="SearchFragment" >
+        <action
+            android:id="@+id/action_searchFragment_to_findTutorFragment"
+            app:destination="@id/findTutorFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popEnterAnim="@anim/slide_in_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/findTutorFragment"
+        android:name="android.team.clandestine.posip.fragment.FindTutorFragment"
+        android:label="FindTutorFragment" >
+        <action
+            android:id="@+id/action_findTutorFragment_to_tutorBackgroundFragment"
+            app:destination="@id/tutorBackgroundFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:popEnterAnim="@anim/slide_in_left" />
+    </fragment>
+    <fragment
+        android:id="@+id/tutorBackgroundFragment"
+        android:name="android.team.clandestine.posip.fragment.TutorBackgroundFragment"
+        android:label="TutorBackgroundFragment" />
+    <fragment
+        android:id="@+id/activeTutorDetailsFragment"
+        android:name="android.team.clandestine.posip.fragment.ActiveTutorDetailsFragment"
+        android:label="ActiveTutorDetailsFragment" />
+</navigation>

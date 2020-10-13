@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/padding_medium">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/role"
+            android:contentDescription="@string/role_desc"/>
+
+        <TextView
+            style="@style/TextAppearance.Posip.Headline.Bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:text="@string/role_msg" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/student_button"
+            style="@style/Widget.Posip.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_wide"
+            android:text="@string/student"/>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/teacher_button"
+            style="@style/Widget.Posip.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tutor"/>
+    </LinearLayout>
+</layout>
